@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "titel": "Heizöl-Kaufberater",
+    "plz": "5572",
+    "ort": "Sankt Andrä im Lungau",
+    "datum": "Donnerstag, 10.09.2026",
+    "datum_kurz": "10.09.2026"
+  },
+  "ampel": {
+    "verdikt": "NICHT KAUFEN",
+    "preis_text": "166,45",
+    "einheit": "€/100 l",
+    "kurzbegruendung": "100. Perzentil der letzten 12 Monate – 1,16 € über dem Höchststand des Fensters (165,29 €). Ortspreis seit drei Tagen unverändert, aber Gasoil ist heute allein um 4,2 % auf ein neues Hoch gesprungen – die Bewegung steckt noch nicht im Portalpreis. Kein Handlungsdruck aus dem Tank.",
+    "ausfuehrliche_begruendung": "Der Ortspreis notiert seit drei Tagen unverändert bei 166,45 €/100 l – leicht unter dem Montagswert (167,86 €), aber weiter über dem bisherigen Bandmaximum (165,29 €), Perzentilrang 100. Ruhig ist die Lage trotzdem nicht: seit Montag sind vier weitere Eskalationsstufen dazugekommen – die iranische Sperrzonen-Ankündigung für die Straße von Hormus (07.09.), ein koordinierter Huthi-Angriff auf saudische Raffinerien und Terminals inklusive Jazan (08.09.), eine daraus gewordene saudische Luftkampagne im Jemen samt direkter Bedrohung von Tankern in Kuwait und Bahrain (09.09.), und ein neuer Drohnentreffer auf das Mazut-Terminal in Novorossiysk (10.09.). Heute Nachmittag kommt das bislang deutlichste Marktsignal dazu: ICE-Gasoil springt binnen Stunden um 4,2 % auf ein neues Hoch (1.453 USD/t), während Brent nur +0,1 % auf 101,25 USD zulegt – der rechnerische Crack-Spread steigt damit auf rund 94 USD/bbl, ein neuer Höchstwert gegenüber den zuvor gemeldeten 80–85. Das Portal hat diese Bewegung noch nicht nachvollzogen. Erwartete Wirkung auf die Ortsnotierung: aufwärts, geschätzt 3–7 % binnen weniger Tage, sobald das Portal nachzieht – und das ist ausdrücklich kein Kaufargument, sondern der Moment, in den man nicht hineinkaufen sollte. Der Tankstand von rund 2.331 l liegt weit über der 1.000-l-Bestellschwelle, die Prognose für den 31.01.2027 bleibt in allen drei Verbrauchsszenarien über der Frostgrenze von 890 l, und das Zielfenster beginnt erst im März 2027. In einen bereits erhöhten Preis hineinzukaufen, weil er weiter steigen dürfte, ist der Fehler vom Oktober 2023."
+  },
+  "kacheln": [
+    {"label": "Portalpreis 5572", "wert": "166,45", "einheit": "€/100 l", "note": "3.000 l, heizoel24, Stand 10.09.", "farbe": null},
+    {"label": "Perzentil 12 Mon.", "wert": "100.", "einheit": "", "note": "Band 100,05 – 165,29 €", "farbe": "rot"},
+    {"label": "Δ Woche", "wert": "−1,41", "einheit": "€", "note": "vs. letzter Montag (07.09., 167,86 €)", "farbe": "rot"},
+    {"label": "Passt in den Tank", "wert": "1.369", "einheit": "l", "note": "≈ 2.279 € zum heutigen Preis", "farbe": null}
+  ],
+  "preisband": {
+    "p10": 102.03, "p25": 102.89, "median": 121.29, "p75": 151.03,
+    "band_min": 100.05, "band_max": 165.29, "heute": 166.45, "limit": 102.89,
+    "bandhinweis": "Bandposition 104 % – der Marker steht am rechten Anschlag, Perzentilrang 100.",
+    "vortag_html": "Δ Vortag <b class=\"tn\">0,00 €</b> (dritter Tag in Folge unverändert) · Δ vs. letzter Montag <b class=\"tg\">−1,41 €</b> · Δ Monat <b class=\"tn\">n/a</b> – die eigene Tagesreihe reicht erst bis 30.08.2026 zurück.",
+    "warnung_html": "<b>Quellenlage:</b> der Wert stammt aus Kaskadenstufe 1 (heizoel24-Ortsseite Sankt Andrä im Lungau), Portalstand 10.09. 07:10, 0,00 % zum Vortag. Der AT-Durchschnitt liegt heute bei 173,87 €; der Ortsabstand beträgt danach −4,26 %, während für die Perzentilrechnung weiter der eingefrorene Regionalfaktor −5,61 % verwendet wird. Der Faktor wird erst neu bestimmt, wenn die eigene Tagesreihe 60 Wertepaare enthält."
+  },
+  "markt": {
+    "stand": "Donnerstag 10.09.",
+    "zeilen": [
+      {"groesse": "Brent", "wert": "101,25 USD/bbl", "aenderung": "+0,12 % Tag", "aenderung_farbe": "tg", "wirkung": "↑ Monat +13,97 %; höchster Stand seit Mai, laut TradingEconomics wegen US-Iran-Eskalation", "wirkung_farbe": "tw"},
+      {"groesse": "ICE Gasoil (London)", "wert": "1.453,25 USD/t", "aenderung": "+4,16 % Tag", "aenderung_farbe": "tw", "wirkung": "↑↑ neues Hoch binnen Stunden, laut investing.com wegen Hormus-Lieferengpässen", "wirkung_farbe": "tw"},
+      {"groesse": "EUR/USD", "wert": "1,1641", "aenderung": "+0,04 % Tag", "aenderung_farbe": "tn", "wirkung": "→ nahezu neutral, minimal verteuernd", "wirkung_farbe": "tn"},
+      {"groesse": "Crack-Spread", "wert": "93,82 USD/bbl", "aenderung": "", "aenderung_farbe": "tn", "wirkung": "↑↑ neues Hoch; Rohöl und Produkt laufen weiter auseinander", "wirkung_farbe": "tw"}
+    ],
+    "einschaetzung_titel": "Markt-Einschätzung & Hintergrund",
+    "einschaetzung_html": "<div class=\"warn\" style=\"margin-top:0\"><b>Rohöl und Produkt laufen weiter auseinander – heute stärker als je zuvor.</b> ICE-Gasoil ist am Nachmittag binnen Stunden von 1.395,25 auf 1.453,25 USD/t gesprungen (+4,16 %), Brent bewegt sich kaum (+0,12 %). Der rechnerische Crack-Spread springt damit auf rund 94 USD/bbl – bisher lag das Maximum bei 80–85. Die Bewegung steckt noch nicht im Ortspreis: das Portal notiert seit drei Tagen unverändert 166,45 €.</div><p class=\"txt\"><b>Versorgungslage:</b> Seit Montag ist die Liste bestätigter Ausfälle länger geworden. Russland: Rjasan (Rosneft, 13–17 Mio. t/a) bleibt seit dem 06.09. stillgelegt, dazu ein neuer Drohnentreffer auf das Mazut-Terminal in Novorossiysk (Nacht auf 09.09., mindestens ein Lagertank beschädigt) – Wirkung eher gering, da Mazut nicht HEL ist. Saudi-Arabien/Jemen: ein koordinierter Huthi-Angriff traf am 08.09. mehrere Ölanlagen im Süden, darunter die Raffinerie Jazan – ihr Rotmeer-Terminal verschifft Diesel und Mitteldestillate nach Europa ohne Hormus-Passage, dieser Ausweichkanal fällt damit teilweise aus, während gleichzeitig vier russische Großraffinerien stillstehen. Daraus wurde am 09.09. eine saudische Luftkampagne mit 32 Schlägen gegen vier jemenitische Provinzen; Irans Marine drohte am selben Tag erstmals Tankern in kuwaitischen und bahrainischen Häfen. Die EIA-Zahlen für die Woche zum 28.08. stehen weiter: US-Raffinerien 98 % Auslastung, Destillatvorräte 14 % unter dem Fünfjahresschnitt. Für die Raffinerie Schwechat war auch heute keine Störungsmeldung auffindbar; das wird als Normalbetrieb gewertet, ist aber nicht bestätigt.</p><p class=\"txt\"><b>Terminlage:</b> Die OPEC+-Achtergruppe hat am 06.09. wie erwartet entschieden – Politik für Oktober unverändert, keine weitere Anhebung. Keine Abweichung von der Erwartung, also kein Preisimpuls von dort. Nächster Fixpunkt: Achtergruppe/JMMC am 04.10.2026.</p>"
+  },
+  "tank": {
+    "kapazitaet": 3700, "fuellstand": 2331, "unschaerfe": 375,
+    "schwelle_rot": 500, "schwelle_orange": 1000
+  },
+  "prognose": {
+    "y_max": 2700, "schwelle_rot": 500, "schwelle_orange": 1000,
+    "kommentar": "Blaues Band = Verbrauchsspanne 1.120–1.500 l/a, Linie = 1.320 l/a. Schraffur = Frostsperre Februar/März, grün = Lieferfenster April/Mai 2027.",
+    "sperrmonate_index": [[5, 6], [17, 18]],
+    "lieferfenster_index": [7, 8],
+    "bestellmarke_index": 6,
+    "bestellmarke_label": "Bestellen 01.03.2027",
+    "monate": [
+      {"label": "S26", "hoch": 2331, "mittel": 2331, "tief": 2331},
+      {"label": "", "hoch": 2260, "mittel": 2210, "tief": 2160},
+      {"label": "", "hoch": 2140, "mittel": 2040, "tief": 1940},
+      {"label": "D26", "hoch": 1980, "mittel": 1830, "tief": 1680},
+      {"label": "", "hoch": 1790, "mittel": 1610, "tief": 1430},
+      {"label": "", "hoch": 1640, "mittel": 1500, "tief": 1350},
+      {"label": "M27", "hoch": 1520, "mittel": 1421, "tief": 1320},
+      {"label": "", "hoch": 2560, "mittel": 2465, "tief": 2370},
+      {"label": "", "hoch": 2460, "mittel": 2350, "tief": 2240},
+      {"label": "J27", "hoch": 2380, "mittel": 2230, "tief": 2080},
+      {"label": "", "hoch": 2320, "mittel": 2150, "tief": 1980},
+      {"label": "", "hoch": 2270, "mittel": 2080, "tief": 1890},
+      {"label": "S27", "hoch": 2200, "mittel": 1990, "tief": 1780},
+      {"label": "", "hoch": 2090, "mittel": 1850, "tief": 1610},
+      {"label": "", "hoch": 1930, "mittel": 1650, "tief": 1370},
+      {"label": "D27", "hoch": 1720, "mittel": 1400, "tief": 0},
+      {"label": "", "hoch": 1470, "mittel": 306, "tief": 0},
+      {"label": "", "hoch": 1250, "mittel": 100, "tief": 0},
+      {"label": "M28", "hoch": 1050, "mittel": 0, "tief": 0}
+    ]
+  },
+  "termine": [
+    {"titel": "Bestellen ab", "wert": "01.03.2027", "text": "Tank dann ≈ 1.421 l, Preis wird bei Bestellung fixiert", "farbe": null},
+    {"titel": "Liefern", "wert": "Apr–Mai 2027", "text": "frei am 10.04. ≈ 2.465 l · Rückfallfenster Sep–Okt 2027", "farbe": "gruen"},
+    {"titel": "Letzter Liefertermin", "wert": "31.01.2028", "text": "besser vor 31.12.2027 – ab 01.01.2028 greift ETS 2", "farbe": "orange"}
+  ],
+  "tank_details": [
+    "Geschätzter Inhalt <b>2.331 l</b> – freie Kapazität <b>1.369 l</b> (≈ 2.279 € zum heutigen Preis). Schätzung, fortgeschrieben aus der Vollbefüllung 30.07.2025 mit 1.320 l/a und Saisonprofil.",
+    "Beide Schwellen weit entfernt: orange bei 1.000 l, rot bei 500 l. Die 1.000-l-Marke wird im mittleren Szenario erst um den <b>18.09.2027</b> erreicht, im oberen Verbrauchsszenario schon um den <b>20.03.2027</b>.",
+    "<b>Frostsperre Februar und März:</b> keine Zufahrt, also keine Lieferung. Die <b>Bestellung</b> ist davon nicht betroffen – beim Lagerhaus wird der Preis bei der Bestellung fixiert.",
+    "Zielmarke <b>31.01.2027: 890 l</b> (500 l Reserve + ca. 385 l bis Anfang April). Prognose <b>1.626 l</b>, im oberen Verbrauchsszenario <b>1.343 l</b>, im unteren <b>1.940 l</b> – <b class=\"tg\">in allen drei Szenarien über der Marke</b>.",
+    "Winter 2027/28 ist aus dem Tank nicht mehr zu decken: ohne Nachfüllung blieben am 31.01.2028 rechnerisch nur <b>306 l</b> (mittleres Szenario), im oberen Szenario ist der Tank schon im Dezember 2027 leer."
+  ],
+  "lieferhistorie": {
+    "hinweis": "5 Bestellungen seit 2019, letzte 30.07.2025 (2.115 l) – Details und Timing-Bewertung aufklappbar.",
+    "zeilen": [
+      {"datum": "04.11.2019", "menge": "2.091 l", "verbrauch": "—", "timing": "Startpunkt der Historie", "timing_farbe": "tn"},
+      {"datum": "07.09.2020", "menge": "1.001 l", "verbrauch": "≈ 1.140 l", "timing": "vermutlich Mindestbestellmenge, keine Vollbefüllung", "timing_farbe": "tn"},
+      {"datum": "08.10.2021", "menge": "1.572 l", "verbrauch": "≈ 1.450 l", "timing": "Marktpreis rund 0,80 €/l – im Rückblick sehr gut", "timing_farbe": "tg"},
+      {"datum": "23.10.2023", "menge": "3.046 l", "verbrauch": "≈ 2.700 l", "timing": "Marktpreis rund 1,36 €/l – 71. Perzentil, der Anstieg war schon gelaufen", "timing_farbe": "tw"},
+      {"datum": "30.07.2025", "menge": "2.115 l", "verbrauch": "≈ 1.960 l", "timing": "Marktpreis rund 1,12 €/l – im unteren Drittel, gutes Timing", "timing_farbe": "tg"}
+    ],
+    "lehre_html": "<b>Lehre aus Oktober 2023:</b> damals wurde vor einem erwarteten Anstieg bestellt – der Anstieg war zu diesem Zeitpunkt bereits im Preis. Eine laufende Aufwärtsbewegung ist kein Kaufargument, sondern in der Regel das Gegenteil. Genau das ist die heutige Lage."
+  },
+  "radar": [
+    {"pfeil": "↑", "farbe": "tw", "horizont": "Tage", "text_html": "<b>Gasoil-Sprung auf neues Hoch</b> – ICE Low Sulphur Gasoil springt heute Nachmittag binnen Stunden um 4,2 % auf 1.453 USD/t (laut investing.com wegen Hormus-Lieferengpässen), während Brent kaum reagiert. Crack-Spread rechnerisch ≈ 94 USD/bbl, neues Hoch gegenüber den zuvor gemeldeten 80–85. Steckt noch nicht im Ortspreis. Geschätzte Wirkung: <b>+3 bis 7 %</b> binnen weniger Tage, sobald das Portal nachzieht."},
+    {"pfeil": "↑", "farbe": "tw", "horizont": "Wochen", "text_html": "<b>Iran droht Golf-Tankern dritter Staaten</b> – nachdem CENTCOM am 08.09. fünf weitere iranische Tanker zerstört hat, warnt Irans Marine erstmals Tanker in kuwaitischen und bahrainischen Häfen vor „Vergeltungsschlägen“; UKMTO bestätigt Schiffe unter Beschuss im Golf. Qualitativer Statuswechsel – nicht mehr nur iranische bzw. US-nahe Schiffe betroffen. Geschätzte Wirkung: <b>+4 bis 8 %</b> binnen ein bis zwei Wochen."},
+    {"pfeil": "↑", "farbe": "tw", "horizont": "Wochen", "text_html": "<b>Saudi-Arabien/Jemen: aus Einzelschlag wird Luftkampagne</b> – nach dem Huthi-Angriff auf Jazan und weitere Ölanlagen (08.09.) folgten in der Nacht auf 09.09. 32 saudische Luftschläge auf vier jemenitische Provinzen. Jazans Rotmeer-Ausweichkanal nach Europa fällt teilweise aus, während vier russische Großraffinerien gleichzeitig stillstehen. Geschätzte Wirkung: <b>+3 bis 6 %</b> in ein bis zwei Wochen."},
+    {"pfeil": "↓", "farbe": "tn", "horizont": "Tage", "text_html": "<b>Neuer Treffer auf russische Exportinfrastruktur</b> – Drohnenangriff in der Nacht auf 09.09. auf das Heizöl-/Mazut-Terminal im Hafen Novorossiysk, mindestens ein Lagertank beschädigt, Verladestopp nicht bestätigt. Zweiter Treffer dort binnen vier Wochen. Wirkung gering, da Mazut nicht HEL ist. Geschätzte Wirkung: <b>0 bis 2 %</b>, eher Sentiment als Physik."}
+  ],
+  "limit": {
+    "titel": "Kauflimit heute (25. Perzentil)",
+    "wert": "102,89", "einheit": "€/100 l",
+    "beschreibung_html": "Abstand zum heutigen Preis: <b class=\"tw\">−64,97 € bzw. −38,7 %</b>. Starkes Signal (10. Perzentil) bei 102,03 €.",
+    "info_html": "<b>Die im Auftrag hinterlegten Werte 121 € und 126 € sind mit der eingefrorenen Datenbasis nicht reproduzierbar.</b> Aus der Monatsreihe ergeben sich für 5572 im Fenster Okt 25 – Sep 26: 10. Perzentil 102,03 €, 25. Perzentil 102,89 €, Median 121,29 €. Die 121 € entsprechen dem Median, nicht dem 10. Perzentil. Bis zu einer Entscheidung stehen beide Zahlen nebeneinander, keine allein wird als Kaufsignal verwendet.",
+    "details": [
+      "<b>Zielfenster-Regel ab März 2027:</b> dann hat der Termin Vorrang vor dem Preis, und das 25. Perzentil reicht als Signal. Der Zahlenwert dafür ist heute <b>n/a</b> – sechs der zwölf Fenstermonate liegen noch in der Zukunft.",
+      "Das rollierende Fenster hebt die Schwellen von selbst: die billigen Monate Okt 25 bis Feb 26 mit 100–107 € fallen bis März 2027 heraus. Auf heutigem Niveau läge das 25. Perzentil dann grob bei 145–150 € – eine Schätzung, keine Rechnung.",
+      "<b>Kanal:</b> Lagerhaus, gemeinsam mit dem Nachbarn. Getrennte Rechnungen, nur die Zustellung wird halbiert (20 statt 40 €); die Mengenstaffel gilt je Kunde. Die Portalnotierung ist Marktbarometer für das Timing, nicht der Rechnungsbetrag – beim Kaufsignal das Lagerhaus-Angebot dagegenhalten.",
+      "Kein Limit-Auftrag nötig: erreicht die Notierung das Limit, genügt der Anruf – der Preis wird bei der Bestellung fixiert.",
+      "<b>Offen, beim Lagerhaus zu klären:</b> ob ein Auftrag mit Liefertermin im April angenommen wird. Ohne diese Zusage bricht die Frostsperren-Lösung.",
+      "<b>CO2 bis Ende 2027 fix:</b> NEHG 55 €/t (≈ 14 ct/l) gilt laut BMF für 2025 bis 2027, EU-ETS 2 startet erst am 01.01.2028. Im Kauffenster März–Mai 2027 droht damit <b>keine</b> regulatorische Preisstufe; sie liegt am 01.01.2028 – also innerhalb des Rückfallfensters bis 31.01.2028."
+    ]
+  },
+  "fuss": {
+    "quellen_titel": "Quellen und Datenbasis · Stand 10.09.2026, ca. 13:15 MESZ",
+    "quellen": [
+      {"label": "Ortspreis 5572", "text": "heizoel24.at, Ortsseite Sankt Andrä im Lungau, Portalstand 10.09.2026 07:10, 3.000 l – 166,45 €/100 l, 0,00 % zum Vortag (dritter Tag unverändert)."},
+      {"label": "AT-Durchschnitt", "text": "173,87 €/100 l, heizoel24-Übersichtsseite, Stand 09.09. (−0,07 % zum Vortag)."},
+      {"label": "Markt", "text": "Brent 101,25 USD (+0,12 % Tag, +13,97 % Monat) über TradingEconomics (10.09.); ICE Low Sulphur Gasoil (London) 1.453,25 USD/t (+4,16 % Tag) über investing.com (10.09., 13:00); EUR/USD 1,1641 (+0,04 %) über wallstreet-online.de (10.09.)."},
+      {"label": "Versorgung", "text": "PEGELONLINE (WSV) Pegel Kaub, 10.09.2026 07:00 (24 cm); EIA Weekly Petroleum Status Report für die Woche zum 28.08.2026."},
+      {"label": "Geopolitik", "text": "Militarnyi, Kyiv Independent, OilPrice (09.09.2026) zu Novorossiysk; TRT World, Al Bawaba, RT, ABC News, AP, Foreign Policy (08./09.09.2026) zu Saudi-Arabien, Jemen und dem Tankerkrieg; TradingEconomics (09./10.09.2026) zur Marktlage."},
+      {"label": "Perzentil", "text": "Fenster Okt 2025 – Sep 2026, hybrid, unverändert zu Montag. 11 der 12 Monate aus der eingefrorenen Basisreihe, 1 Monat (Sep 2026) weiter aus dem Basiswert – die eigene Tagesreihe hat erst 10 von 15 nötigen Septemberwerten. Ortswerte über den Regionalfaktor −5,61 % abgeleitet."}
+    ],
+    "nicht_ermittelbar_titel": "Nicht ermittelbar",
+    "nicht_ermittelbar": [
+      {"label": "Δ Monat", "text": "n/a – die eigene Tagesreihe beginnt erst am 30.08.2026."},
+      {"label": "Monatsmittel August 2026", "text": "n/a – nur 2 eigene Augustwerte, kein Portal gab einen AT-Monatsschnitt frei. Es gilt weiter der Basiswert 1,59 €/l."},
+      {"label": "25. Perzentil für März 2027", "text": "n/a – sechs Fenstermonate liegen in der Zukunft."},
+      {"label": "Raffinerie Schwechat", "text": "keine aktuelle Störungsmeldung auffindbar, die Treffer der Suche stammen sämtlich aus 2022 – als Normalbetrieb gewertet, nicht bestätigt."},
+      {"label": "Lagerhaus-Angebot", "text": "nicht abgefragt. Die Portalnotierung ist nicht der Rechnungsbetrag."}
+    ]
+  }
+}
